@@ -6,7 +6,9 @@ lat ul li{
     margin: 5px 20px;
     font-size: 16px;
 }
-
+.link:hover .link{
+    font-weight: 100;
+}
 .latesth2{
     font-family: "Poppins",sans-serif;
     text-align: center;

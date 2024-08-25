@@ -6,7 +6,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-     
+    justify-content: space-between;
 }
 .caption{
     top: 0;
@@ -19,13 +19,17 @@
     display: flex;
     align-items: center;
     opacity: 0;
+    padding-top: 70%;
+    transition: 0.4s;
+    border-radius: 10%;
 }
-.caption:hover .caption{
+.diffeach:hover .caption{
     opacity: 1;
+    padding-top: 0;
 }
 .diff img{
     width: 100%;
-    border-radius: 0px;
+    border-radius: 10%;
     display: block;
 }
 

@@ -10,7 +10,10 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <Latest/>
-      <Diff/>
+      <div className="container">
+        <Diff/>
+      </div>
+      
       <Contact/>
     </div>
   )

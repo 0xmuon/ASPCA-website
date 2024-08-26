@@ -1,13 +1,12 @@
 import React from 'react'
 import './Footer.css'
-import logo from '../../assets/ASPCA-logo.webp'
+
 import rating from '../../assets/four-star-rating-badge-full-color-800.png'
 import subaru from '../../assets/subaru.webp'
 import aphi from '../../assets/aphi.webp'
 const Footer = () => {
   return (
-    <div className='footer'><a href='./index.html'>
-      <img src={logo} alt="" className='footer-logo' /></a>
+    <div className='footer'>
       <p>© 2024 American Society for the Prevention of Cruelty to Animals. All rights reserved.</p>
       <p>The ASPCA is a 501(c)(3) non-for-profit organization.</p>
       <ul>

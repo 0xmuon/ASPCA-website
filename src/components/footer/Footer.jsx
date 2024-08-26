@@ -6,8 +6,8 @@ import subaru from '../../assets/subaru.webp'
 import aphi from '../../assets/aphi.webp'
 const Footer = () => {
   return (
-    <div className='footer'>
-      <img src={logo} alt="" className='footer-logo' />
+    <div className='footer'><a href='./index.html'>
+      <img src={logo} alt="" className='footer-logo' /></a>
       <p>© 2024 American Society for the Prevention of Cruelty to Animals. All rights reserved.</p>
       <p>The ASPCA is a 501(c)(3) non-for-profit organization.</p>
       <ul>
@@ -18,12 +18,15 @@ const Footer = () => {
           <h6><a href="https://www.aspca.org/about-us/legal-information">Legal Information</a></h6>
         </li>
       </ul>
+      <a href='https://www.charitynavigator.org/ein/13-1623829'>
       <img src={rating} alt="" className='footer-logo' />
-      
+      </a>
       <hr></hr>
       <h3 className='partners'>Our Partners</h3>
-      <img src={aphi} alt="" className='footer-logo'/>
-      <img src={subaru} alt="" className='footer-logo'/>
+      <a href='https://www.aspcapetinsurance.com/'>
+      <img src={aphi} alt="" className='footer-logo'/></a>
+      <a href='https://www.subaru.com/about/our-company.html'>
+      <img src={subaru} alt="" className='footer-logo'/></a>
       <p>Underwritten by Independence American Insurance Company</p>
     </div>
   )

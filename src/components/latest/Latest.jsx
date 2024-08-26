@@ -3,7 +3,6 @@ import './Latest.css'
 const Latests = () => {
   return (
     <lat className='container'>
-        <h2 className='latesth2'>The Latest</h2>
         <ul>
           <li>
           <p className='date'>August 20, 2024 </p>
